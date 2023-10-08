@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-pokemon">
+      <div class="logo-box">
+        <img class="logo" src="./assets/LOGO_POKEMON.png" alt="" />
+      </div>
+      <div class="pokemon-title">
+        <h1 class="pokemon-font">POKEMON API</h1>
+      </div>
+    </header>
+
+
+<section class="type-filter">
+  <p class="pokemon-font pfiltrar">Filtra por tipo</p>
+<div>
+  <img class="img-types grass" src="./assets/POKEMON TYPES/TYPE_GRASS.png" alt="Grass type">
+</div>
+<div>
+  <img class="img-types fire" src="./assets/POKEMON TYPES/TYPE_FIRE.png" alt="Fire type">
+</div>
+<div>
+  <img class="img-types fairy" src="./assets/POKEMON TYPES/TYPE_FAIRY.png" alt="Fairy type">
+</div>
+<div>
+  <img class="img-types bug" src="./assets/POKEMON TYPES/TYPE_BUG.png" alt="Bug type">
+</div>
+<img class="img-types dragon" src="./assets/POKEMON TYPES/TYPE_DRAGON.png" alt="Dragon type">
+</div>
+<img class="img-types electric" src="./assets/POKEMON TYPES/TYPE_ELECTRIC.png" alt="Electric type">
+</div>
+<img class="img-types fighting" src="./assets/POKEMON TYPES/TYPE_FIGHTING.png" alt="Fighting type">
+</div>
+<img class="img-types flying" src="./assets/POKEMON TYPES/TYPE_FLYING.png" alt="Flying type">
+</div>
+<img class="img-types ghost" src="./assets/POKEMON TYPES/TYPE_GHOST.png" alt="Ghost type">
+</div>
+<img class="img-types ground" src="./assets/POKEMON TYPES/TYPE_GROUND.png" alt="Ground type">
+</div>
+<img class="img-types ice" src="./assets/POKEMON TYPES/TYPE_ICE.png" alt="Ice type">
+</div>
+<img class="img-types normal" src="./assets/POKEMON TYPES/TYPE_NORMAL.png" alt="Normal type">
+</div>
+<img class="img-types poison" src="./assets/POKEMON TYPES/TYPE_POISON.png" alt="Poison type">
+</div>
+<img class="img-types rock" src="./assets/POKEMON TYPES/TYPE_ROCK.png" alt="Rock type">
+</div>
+<img class="img-types psychic" src="./assets/POKEMON TYPES/TYPE_PSYCHIC.png" alt="Psychic type">
+</div>
+<img class="img-types steel" src="./assets/POKEMON TYPES/TYPE_STEEL.png" alt="Steel type">
+</div>
+<img class="img-types water" src="./assets/POKEMON TYPES/TYPE_WATER.png" alt="Water type">
+</div>
+</section>
+
+    <section class="div-input">
+      <p class="pokemon-font pfiltrar">Filtra por pokemon</p>
+      <input placeholder="Escribe aquí" data-function="search" type="text" />
+      <!-- <button class="button-filter pokemon-font">Buscar</button> -->
+    </section>
+
+    <main class="pokemon-main"></main>
+
+    <section class="bloque-quiz">
+      
+      <div class="white-zone">
+        <h1 class="poketest">POKETEST</h1>
+        <h3>¿Qué pokemon eres?</h3>
+        <img class="pikachu" src="https://i.pinimg.com/originals/9f/b1/25/9fb125f1fedc8cc62ab5b20699ebd87d.gif" alt="Pikachu corriendo">
+        <div>
+          <p class="pregunta">Si el profesor te ofrece uno de estos Pokemons, ¿cuál elegirías?</p>
+          <div class="divbotones"></div>
+        </div>
+          
+        <div>
+            <p class="pregunta">No quieres ir a trabajar hoy, ¿cuál es tu excusa?</p>
+            <div class="botones2"></div>
+          </div>
+
+          <div>
+            <p class="pregunta">¿Cuál es tu mejor cualidad?</p>
+            <div class="botones3"></div>
+          </div>
+          
+          <button 
+         class="botones" id="abrirModal">Enviar</button>
+          <!-- VENTANA NO VISIBLE -->
+          <div id="ventanaModal" class="modal">
+            <div class="modal-content">
+                <span class="cerrar">&times;</span>
+                <h2 class="poketest">Tu pokemon es...</h2>
+               <div id="result"></div>
+            </div>
+          </div>
+            
+    </section>
+  </body>
+</html>
