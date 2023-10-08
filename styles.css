@@ -8,6 +8,482 @@
   border-style: none;
 }
 
+
+@media only screen and (min-width: 320px) and (max-width: 1023px) {
+  @font-face {
+    font-family: "Pokemon Classic";
+    src: url("./Fonts/pokemon_classic/Pokemon\ Classic.ttf");
+  }
+  
+  .pokemon-font {
+    font-family: "Pokemon Classic";
+    color: white;
+  }
+  
+  .pokemon-img {
+    width: 100vw;
+    margin-top: 50px;
+    height: 150px;
+  }
+  
+  .header-pokemon {
+    background-image: url("./assets/IMAGEN_FONDO_CABECERA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  /* .logo-box {
+    height: 100px;
+  } */
+  
+  .logo {
+    height: 120px;
+    
+  }
+  
+  .pokemon-title {
+ 
+    font-size: 10px;
+    color: white;
+    margin-top: 150px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+
+  }
+  
+  .pokemon-main {
+    background-color: #030102;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .pokemon-div-item {
+    display: flex;
+    width: 300px;
+    height: 430px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 15px;
+    align-items: center;
+  }
+  
+  .pokemon-name-style {
+    display: flex;
+    height: 80px;
+    width: 210px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+  }
+  
+  .bg-card-grass {
+    background-image: url("./assets/GRASS_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-fire {
+    background-image: url("./assets/FIRE_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-water {
+    background-image: url("./assets/WATER_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-bug {
+    background-image: url("./assets/BUG_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-normal {
+    background-image: url("./assets/NORMAL_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-poison {
+    background-image: url("./assets/POISON_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-electric {
+    background-image: url("./assets/ELECTRIC_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-ground {
+    background-image: url("./assets/GROUND_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-fairy {
+    background-image: url("./assets/FAIRY_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-psychic {
+    background-image: url("./assets/PSYCHIC_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-fighting {
+    background-image: url("./assets/FIGHTING_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-rock {
+    background-image: url("./assets/ROCK_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .bg-card-ghost {
+    background-image: url("./assets/GHOST_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-ice {
+    background-image: url("./assets/ICE_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .bg-card-dragon {
+    background-image: url("./assets/DRAGON_TYPE_CARD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  
+  .div-input {
+    background-color: #030102;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  input {
+    background-color: rgb(234, 234, 234);
+    height: 50px;
+    width: 350px;
+    margin-right: 20px;
+  }
+  
+  .button-filter {
+    background-color: rgb(87, 60, 119);
+    height: 50px;
+    width: 130px;
+    border-radius: 50px;
+  }
+  
+  .pfiltrar {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  ::placeholder {
+    padding-left: 20px;
+    font-family: "Pokemon Classic";
+    color: rgb(87, 60, 119);
+  }
+  
+  .type-text-position {
+    margin-top: 32px;
+    margin-left: 100px;
+    font-size: 15px;
+  }
+  
+  /* CSS DE LA CARTA QUE GIRA */
+  .flip-card {
+    display: flex;
+    width: 300px;
+    height: 430px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 15px;
+    align-items: center;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    display: flex;
+    width: 300px;
+    height: 430px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+  
+    align-items: center;
+  }
+  
+  .flip-card-back {
+    background-image: url("./assets/CARD_BACK_SIDE.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: rotateY(180deg);
+  }
+  
+  .bloque-quiz {
+    background-image: url(./assets/Fondo-trama.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+  
+  .buttonCharmander {
+    background-color: #f78201;
+  }
+  
+  .buttonBulbasur {
+    background-color: #7ec2a5;
+  }
+  
+  .buttonSquirtle {
+    background-color: #7fc9e2;
+  }
+  
+  .pregunta {
+    font-family: "Pokemon Classic";
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .div-preguntas{
+    width: 90vw;;
+  }
+  
+  .botones {
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+    font-family: "Pokemon Classic";
+  }
+  
+  .botones:hover {
+    background-color: #f7e901;
+    color: #000914;
+    border: 2px solid #f7e901;
+  }
+  
+  .divbotones {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .botones2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .botones3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .white-zone {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+   
+    background-color: #000914;
+   
+  }
+  
+  .poketest {
+    font-family: "Pokemon Classic";
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .pikachu {
+    width: 150px;
+  }
+  
+  /* Fondo modal: negro con opacidad al 50% */
+  .modal {
+    display: none; /* Por defecto, estará oculto */
+    position: fixed; /* Posición fija */
+    z-index: 1; /* Se situará por encima de otros elementos de la página*/
+    padding-top: 200px; /* El contenido estará situado a 200px de la parte superior */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Algura completa */
+    overflow: auto; /* Se activará el scroll si es necesario */
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad del 50% */
+  }
+  
+  .modal-content {
+    position: relative; /* Relativo con respecto al contenedor -modal- */
+    background-color: #000914;
+    margin: auto; /* Centrada */
+    padding: 20px;
+    height: 70%;
+    width: 60%;
+    -webkit-animation-name: animarsuperior;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animarsuperior;
+    animation-duration: 0.5s;
+  }
+  
+  /* Add Animation */
+  /* @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  } */
+  @keyframes animarsuperior {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 0;
+      opacity: 1;
+    }
+  }
+  
+  .close {
+    color: black;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  #result {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .pokemon-result-name {
+    margin-top: 20px;
+  }
+  
+  .pokemon-result-imagen {
+    height: 200px;
+  }
+  
+  .type-filter {
+    display: flex;
+    background-color: #030102;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 50px;
+  }
+  
+  .img-types {
+    width: 120px;
+  }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
 @font-face {
   font-family: "Pokemon Classic";
   src: url("./Fonts/pokemon_classic/Pokemon\ Classic.ttf");
@@ -367,8 +843,7 @@ input {
   flex-wrap: wrap;
   align-content: center;
   align-items: center;
-  height: 800px;
-  width: 700px;
+  
   background-color: #000914;
   margin-top: 30px;
 }
@@ -377,7 +852,7 @@ input {
   font-family: "Pokemon Classic";
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
 }
 
 .pikachu {
@@ -470,4 +945,6 @@ input {
 
 .img-types {
   width: 120px;
+}
+
 }
