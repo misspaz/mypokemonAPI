@@ -115,6 +115,12 @@ const init = async () => {
   // console.log(pokemons);
   const mappedPokemons = mapPokemons(pokemons);
   // console.log(mappedPokemons);
+
+  let allPokemons = document.querySelector(".deleteFilter");
+  allPokemons.addEventListener("click", function () {
+    let todosPokemons = mappedPokemons;
+    drawPokemons(todosPokemons);
+  });
   drawPokemons(mappedPokemons);
   drawInput$$(mappedPokemons);
 
@@ -161,9 +167,7 @@ const init = async () => {
 
   const bug$$ = document.querySelector(".bug");
   bug$$.addEventListener("click", function () {
-    let pokemonbug = mappedPokemons.filter(
-      (pokemon) => pokemon.tipo === "bug"
-    );
+    let pokemonbug = mappedPokemons.filter((pokemon) => pokemon.tipo === "bug");
     drawPokemons(pokemonbug);
   });
 
@@ -216,9 +220,7 @@ const init = async () => {
 
   const ice$$ = document.querySelector(".ice");
   ice$$.addEventListener("click", function () {
-    let pokemonice = mappedPokemons.filter(
-      (pokemon) => pokemon.tipo === "ice"
-    );
+    let pokemonice = mappedPokemons.filter((pokemon) => pokemon.tipo === "ice");
     drawPokemons(pokemonice);
   });
 
@@ -229,7 +231,6 @@ const init = async () => {
     );
     drawPokemons(pokemonnormal);
   });
-
 
   const poison$$ = document.querySelector(".poison");
   poison$$.addEventListener("click", function () {
@@ -273,6 +274,8 @@ const init = async () => {
 };
 
 init();
+
+// POKETEST
 
 let respuestas1$$ = [
   {
